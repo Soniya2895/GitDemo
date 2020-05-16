@@ -12,7 +12,8 @@ public class SeleniumTest {
 	public void browserAutomation()
 	{
 		System.out.println("browserAutomation");
-		
+		//changes done by USA team
+		System.out.println("Web_Automation");
 		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Sonia\\\\Downloads\\\\chromedriver_win32\\\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://google.com");
