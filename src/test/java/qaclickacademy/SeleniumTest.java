@@ -34,4 +34,10 @@ public class SeleniumTest {
 	{
 		System.out.println("elementUI2");
 	}
+	
+	@Test
+	public void elementUIusa()
+	{
+		System.out.println("elementUIusa");
+	}
 }
