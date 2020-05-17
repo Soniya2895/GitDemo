@@ -28,4 +28,10 @@ public class SeleniumTest {
 		driver.get("https://google.com");
 		driver.findElement(By.className("NKcBbd")).click();
 	}
+	
+	@Test
+	public void elementUI2()
+	{
+		System.out.println("elementUI2");
+	}
 }
